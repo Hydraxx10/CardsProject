@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards!</title>
+    <script src="https://kit.fontawesome.com/0e07b65023.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="contUpper container">
+        <!-- First card -->
+        <div id="firstCard">
+            <img class="fighterImg fighter1Img firstCard" src="1.png" alt="Fighter1">
+            <div class="container firstCard">
+                <div class="background"></div>
+                <div class="white-background">
+                    <p class="level">LEVEL 4</p>
+                    <h4 class="heroName">The Barbarian</h4>
+                    <p class="heroinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="power-info fighter1">
+                    <div class="center-align"><span class="number">20</span><span class="stats">strength</span></div>
+                    <div class="center-align middle-border"><span class="number">16</span><span class="stats">speed</span></div>
+                    <div class="center-align"><span class="number">250</span><span class="stats">cost</span></div>
+                </div>
+            </div>
+        </div>
+         <!--Seconde Card-->
+         <div id="secondCard">
+            <div class="container secondCard">
+                <img class="fighterImg fighter2Img secondCard" src="2.png" alt="Fighter2">
+                <div class="background"></div>
+                <div class="white-background">
+                    <p class="level">LEVEL 5</p>
+                    <h4 class="heroName">The Knight</h4>
+                    <p class="heroinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="power-info fighter2">
+                    <div class="center-align"><span class="number">25</span><span class="stats">strength</span></div>
+                    <div class="center-align middle-border"><span class="number">19</span><span class="stats">speed</span></div>
+                    <div class="center-align"><span class="number">300</span><span class="stats">cost</span></div>
+                </div>
+            </div>
+        </div>
+        <!--Third Card-->
+        <div id="thirdCard">
+            <img class="fighterImg fighter3Img thirdCard" src="3.png" alt="Fighter3">
+            <div class="container thirdCard">
+                <div class="background"></div>
+                <div class="white-background">
+                    <p class="level">LEVEL 7</p>
+                    <h4 class="heroName">The Giant</h4>
+                    <p class="heroinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="power-info fighter3">
+                    <div class="center-align"><span class="number">35</span><span class="stats">strength</span></div>
+                    <div class="center-align middle-border"><span class="number">12</span><span class="stats">speed</span></div>
+                    <div class="center-align"><span class="number">2250</span><span class="stats">cost</span></div>
+                </div>
+            </div>
+        </div>
+        <!-- Arrows -->
+        <a href='javascript:changeCards()' class="right-arrow arr-color"><i class="fas fa-chevron-circle-right fa-lg"></i></a>
+        <a href= 'javascript:changeCardsReverse()' class="left-arrow arr-color"><i class="fas fa-chevron-circle-left fa-lg "></i></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
